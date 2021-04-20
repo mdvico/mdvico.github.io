@@ -1,11 +1,20 @@
 ---
-title: "My First Post"
-date: 2020-12-03T23:24:23-03:00
+title: "Firsts words"
+date: 2021-04-19T00:00:00-03:00
 draft: false
-toc: true
+toc: false
 images:
 tags:
-  - untagged
+  - welcome
+  - presentation
 ---
 
-alskdjfalksdjfalksjd
+Hi, my name is Matías Daniel Vico and this is my personal landing page. Welcome.
+
+I'm 30 years old, I was born in Argentina (🇦🇷) and I am currently working as a Physical Design engineer (so I help making the physical side of micro-chips) at Marvell.
+
+This will be the place where I post everything I find interesting, useful and/or a guide to the future me (hopefully for someone else) on several topic. Please, don't expect periodicity of any kind.
+
+You can find me on Twitter [@HerrFusion](https://twitter.com/HerrFusion).
+
+See you around!

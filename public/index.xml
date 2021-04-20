@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 18 Apr 2021 00:43:00 -0300</lastBuildDate><atom:link href="https://mdvico.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Apr 2021 00:00:00 -0300</lastBuildDate><atom:link href="https://mdvico.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firsts words</title>
+      <link>https://mdvico.github.io/posts/my-first-post/</link>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 -0300</pubDate>
+      
+      <guid>https://mdvico.github.io/posts/my-first-post/</guid>
+      <description>Hi, my name is Matías Daniel Vico and this is my personal landing page. Welcome.
+I&amp;rsquo;m 30 years old, I was born in Argentina (🇦🇷) and I am currently working as a Physical Design engineer (so I help making the physical side of micro-chips) at Marvell.
+This will be the place where I post everything I find interesting, useful and/or a guide to the future me (hopefully for someone else) on several topic.</description>
+    </item>
+    
     <item>
       <title>Lala</title>
       <link>https://mdvico.github.io/posts/lala/</link>
@@ -25,15 +36,6 @@
       
       <guid>https://mdvico.github.io/posts/testing/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://mdvico.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 03 Dec 2020 23:24:23 -0300</pubDate>
-      
-      <guid>https://mdvico.github.io/posts/my-first-post/</guid>
-      <description>alskdjfalksdjfalksjd</description>
     </item>
     
   </channel>
