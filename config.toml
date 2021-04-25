@@ -4,6 +4,17 @@ languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+enableEmoji     = true
+
+[author]
+  name = "Matías Daniel Vico"
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -16,20 +27,52 @@ paginate     = 10
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you linke
+  # Enable sharing buttons, if you like
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "My blog"
   keywords = "homepage, blog"
   images = [""]
 
+  enableThemeToggle = true
   defaultTheme = "dark"
 
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/HerrFusion"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/mdvico"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/matiasvico"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/3173955/mvico"
+
 [taxonomies]
-    category = "blog"
+    category = "categories"
     tag      = "tags"
     series   = "series"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/posts/my-first-post"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "cv"
+    name       = "CV"
+    url        = "/"
 
 [languages]
   [languages.en]
@@ -40,15 +83,22 @@ paginate     = 10
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "cd ~/projects"
       logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+  [languages.es]
+    title = "Matías Daniel Vico"
+    subtitle = "Hay cosas que no sabes que no sabes"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+    [languages.es.params]
+      homeSubtitle = "Hay cosas que no sabes que no sabes"
+    [languages.es.params.logo]
+      logoText = "cd ~/proyectos"
+      logoHomeLink = "/"
+
