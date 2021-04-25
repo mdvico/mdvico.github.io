@@ -92,12 +92,12 @@ enableEmoji     = true
 
   [languages.es]
     title = "Matías Daniel Vico"
-    subtitle = "Hay cosas que no sabes que no sabes"
+    subtitle = "Hay cosas que no sabes que no sabes."
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
     [languages.es.params]
-      homeSubtitle = "Hay cosas que no sabes que no sabes"
+      homeSubtitle = "Hay cosas que no sabes que no sabes."
     [languages.es.params.logo]
       logoText = "cd ~/proyectos"
       logoHomeLink = "/"
