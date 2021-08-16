@@ -10,12 +10,20 @@ dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
 
-enableEmoji     = true
+enableEmoji  = true
 
 [author]
   name = "Matías Daniel Vico"
 
 [params]
+  # Table of Content on the header of each article
+  toc = true
+
+  # Show an estimated reading time below the title for every article
+  showReadingTime = true
+
+  enable_nested_menu = true
+
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
@@ -60,20 +68,6 @@ enableEmoji     = true
     tag      = "tags"
     series   = "series"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/posts/my-first-post"
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
-  [[menu.main]]
-    identifier = "cv"
-    name       = "CV"
-    url        = "/"
-
 [languages]
   [languages.en]
     title = "Matías Daniel Vico"
@@ -81,24 +75,79 @@ enableEmoji     = true
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
+    readMore = "Read more"
+    menuMore = "Show more"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "minutes read"
+    writtenBy = "Written by"
 
     [languages.en.params.logo]
       logoText = "cd ~/projects"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name       = "About"
+      url        = "/posts/my-first-post"
+    [[languages.en.menu.main]]
+      identifier = "blog"
+      name       = "Blog"
+      url        = "/posts"
+#    [[languages.en.menu.main]]
+#      identifier = "cv"
+#      name       = "CV"
+#    [[languages.en.menu.main]]
+#      identifier = "cv-html"
+#      name       = "CV HTML"
+#      parent     = "cv" 
+#      url        = "/cv/cv.html"
+    [[languages.en.menu.main]]
+      identifier = "cv-pdf"
+      name       = "CV PDF"
+#      parent     = "cv" 
+      url        = "/cv/cv.pdf"
+
 
   [languages.es]
     title = "Matías Daniel Vico"
     subtitle = "Hay cosas que no sabes que no sabes."
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+    readOtherPosts = "Leer otros posteos"
+    readMore = "Leer más"
+    menuMore = "Ver más"
+    newerPosts = "Posteos nuevos"
+    olderPosts = "Posteos viejos"
+    minuteReadingTime = "minutos de lectura"
+    writtenBy = "Escrito por"
+
     [languages.es.params]
       homeSubtitle = "Hay cosas que no sabes que no sabes."
     [languages.es.params.logo]
       logoText = "cd ~/proyectos"
-      logoHomeLink = "/"
+      logoHomeLink = "/es"
 
+  [languages.es.menu]
+    [[languages.es.menu.main]]
+      identifier = "about"
+      name       = "Acerca de"
+      url        = "/posts/my-first-post"
+    [[languages.es.menu.main]]
+      identifier = "blog"
+      name       = "Blog"
+      url        = "/posts"
+    [[languages.es.menu.main]]
+      identifier = "cv"
+      name       = "CV"
+    [[languages.es.menu.main]]
+      identifier = "cv-html"
+      name       = "CV HTML"
+      parent     = "cv" 
+      url        = "/cv/cv.html"
+    [[languages.es.menu.main]]
+      identifier = "cv-pdf"
+      name       = "CV PDF"
+      parent     = "cv" 
+      url        = "/cv/cv.pdf"
