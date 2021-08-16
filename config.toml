@@ -64,9 +64,8 @@ enableEmoji  = true
     url  = "https://stackoverflow.com/users/3173955/mvico"
 
 [taxonomies]
-    category = "categories"
     tag      = "tags"
-    series   = "series"
+    category = "categories"
 
 [languages]
   [languages.en]
