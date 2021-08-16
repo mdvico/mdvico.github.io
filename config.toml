@@ -22,7 +22,7 @@ enableEmoji  = true
   # Show an estimated reading time below the title for every article
   showReadingTime = true
 
-  enable_nested_menu = true
+  enable_nested_menu = false
 
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -94,18 +94,18 @@ enableEmoji  = true
       identifier = "blog"
       name       = "Blog"
       url        = "/posts"
-#    [[languages.en.menu.main]]
-#      identifier = "cv"
-#      name       = "CV"
-#    [[languages.en.menu.main]]
-#      identifier = "cv-html"
-#      name       = "CV HTML"
-#      parent     = "cv" 
-#      url        = "/cv/cv.html"
     [[languages.en.menu.main]]
+      identifier = "cv"
+      name       = "CV"
+    [[languages.en.menu.main]]
+      parent     = "cv" 
+      identifier = "cv-html"
+      name       = "CV HTML"
+      url        = "/cv/cv.html"
+    [[languages.en.menu.main]]
+      parent     = "cv" 
       identifier = "cv-pdf"
       name       = "CV PDF"
-#      parent     = "cv" 
       url        = "/cv/cv.pdf"
 
 
@@ -137,18 +137,18 @@ enableEmoji  = true
       identifier = "blog"
       name       = "Blog"
       url        = "/posts"
-#    [[languages.es.menu.main]]
-#      identifier = "cv"
-#      name       = "CV"
-#    [[languages.es.menu.main]]
-#      identifier = "cv-html"
-#      name       = "CV HTML"
-#      parent     = "cv" 
-#      url        = "/cv/cv.html"
+    [[languages.es.menu.main]]
+      identifier = "cv"
+      name       = "CV"
+    [[languages.es.menu.main]]
+      identifier = "cv-html"
+      name       = "CV HTML"
+      parent     = "cv" 
+      url        = "/cv/cv.html"
     [[languages.es.menu.main]]
       identifier = "cv-pdf"
       name       = "CV PDF"
-#      parent     = "cv" 
+      parent     = "cv" 
       url        = "/cv/cv.pdf"
 
 
