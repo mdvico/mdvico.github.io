@@ -1,8 +1,8 @@
-baseurl      = "https://mdvico.github.io"
+baseurl      = "https://mdvico.github.io/"
 title        = "Matías D. Vico's personal site"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
-paginate     = 10
+paginate     = 5
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -43,7 +43,7 @@ enableEmoji  = true
   keywords = "homepage, blog"
   images = [""]
 
-  enableThemeToggle = true
+  enableThemeToggle = false
   defaultTheme = "dark"
 
   # Social icons
@@ -150,3 +150,11 @@ enableEmoji  = true
       name       = "CV PDF"
 #      parent     = "cv" 
       url        = "/cv/cv.pdf"
+
+
+[markup]
+defaultMarkdownHandler = 'goldmark'
+  [markup.tableOfContents]
+  endLevel = 2
+  ordered = false
+  startLevel = 1
