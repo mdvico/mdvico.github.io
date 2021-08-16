@@ -138,16 +138,16 @@ enableEmoji  = true
       identifier = "blog"
       name       = "Blog"
       url        = "/posts"
-    [[languages.es.menu.main]]
-      identifier = "cv"
-      name       = "CV"
-    [[languages.es.menu.main]]
-      identifier = "cv-html"
-      name       = "CV HTML"
-      parent     = "cv" 
-      url        = "/cv/cv.html"
+#    [[languages.es.menu.main]]
+#      identifier = "cv"
+#      name       = "CV"
+#    [[languages.es.menu.main]]
+#      identifier = "cv-html"
+#      name       = "CV HTML"
+#      parent     = "cv" 
+#      url        = "/cv/cv.html"
     [[languages.es.menu.main]]
       identifier = "cv-pdf"
       name       = "CV PDF"
-      parent     = "cv" 
+#      parent     = "cv" 
       url        = "/cv/cv.pdf"
