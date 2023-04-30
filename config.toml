@@ -106,7 +106,7 @@ enableEmoji  = true
 #      parent     = "cv" 
       identifier = "cv-pdf"
       name       = "CV [PDF]"
-      url        = "/content/cv/output/CV_Matias_Daniel_Vico_english.pdf"
+      url        = "/cv/output/CV_Matias_Daniel_Vico_english.pdf"
 
 
   [languages.es]
@@ -149,7 +149,7 @@ enableEmoji  = true
       identifier = "cv-pdf"
       name       = "CV [PDF]"
 #      parent     = "cv" 
-      url        = "/content/cv/output/CV_Matias_Daniel_Vico_english.pdf"
+      url        = "/cv/output/CV_Matias_Daniel_Vico_english.pdf"
 
 
 [markup]
